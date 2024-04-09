@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureList>
+<FixtureList xmlns="http://www.qlcplus.org/FixtureList">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.12.4</Version>
+  <Author>Simon Dovicovic</Author>
+ </Creator>
+ <Fixture>
+  <Manufacturer>Generic</Manufacturer>
+  <Model>Generic</Model>
+  <Mode>4 Channel</Mode>
+  <ID>0</ID>
+  <Name>Dimmer rampa</Name>
+  <Universe>0</Universe>
+  <Address>0</Address>
+  <Channels>4</Channels>
+ </Fixture>
+ <Fixture>
+  <Manufacturer>Stairville</Manufacturer>
+  <Model>LED PAR64</Model>
+  <Mode>Normal</Mode>
+  <ID>1</ID>
+  <Name>LED PAR64</Name>
+  <Universe>0</Universe>
+  <Address>87</Address>
+  <Channels>7</Channels>
+ </Fixture>
+ <Fixture>
+  <Manufacturer>Showtec</Manufacturer>
+  <Model>Club Par 12-6 RGBWAUV</Model>
+  <Mode>11 Channel</Mode>
+  <ID>2</ID>
+  <Name>Club Par 12-6 RGBWAUV #1</Name>
+  <Universe>0</Universe>
+  <Address>13</Address>
+  <Channels>11</Channels>
+ </Fixture>
+ <Fixture>
+  <Manufacturer>Showtec</Manufacturer>
+  <Model>Club Par 12-6 RGBWAUV</Model>
+  <Mode>11 Channel</Mode>
+  <ID>3</ID>
+  <Name>Club Par 12-6 RGBWAUV #2</Name>
+  <Universe>0</Universe>
+  <Address>25</Address>
+  <Channels>11</Channels>
+ </Fixture>
+ <Fixture>
+  <Manufacturer>Showtec</Manufacturer>
+  <Model>Club par 12-4 RGBW</Model>
+  <Mode>9 channel</Mode>
+  <ID>4</ID>
+  <Name>Club par 12-4 RGBW #1</Name>
+  <Universe>0</Universe>
+  <Address>37</Address>
+  <Channels>9</Channels>
+ </Fixture>
+ <Fixture>
+  <Manufacturer>Showtec</Manufacturer>
+  <Model>Club par 12-4 RGBW</Model>
+  <Mode>9 channel</Mode>
+  <ID>5</ID>
+  <Name>Club par 12-4 RGBW #2</Name>
+  <Universe>0</Universe>
+  <Address>47</Address>
+  <Channels>9</Channels>
+ </Fixture>
+ <Fixture>
+  <Manufacturer>Showtec</Manufacturer>
+  <Model>Indigo 4600</Model>
+  <Mode>14 Channels</Mode>
+  <ID>6</ID>
+  <Name>Indigo 4600 #1</Name>
+  <Universe>0</Universe>
+  <Address>57</Address>
+  <Channels>14</Channels>
+ </Fixture>
+ <Fixture>
+  <Manufacturer>Showtec</Manufacturer>
+  <Model>Indigo 4600</Model>
+  <Mode>14 Channels</Mode>
+  <ID>7</ID>
+  <Name>Indigo 4600 #2</Name>
+  <Universe>0</Universe>
+  <Address>72</Address>
+  <Channels>14</Channels>
+ </Fixture>
+ <Fixture>
+  <Manufacturer>Generic</Manufacturer>
+  <Model>Generic</Model>
+  <Mode>4 Channel</Mode>
+  <ID>8</ID>
+  <Name>Dimmer nad rackom</Name>
+  <Universe>0</Universe>
+  <Address>4</Address>
+  <Channels>4</Channels>
+ </Fixture>
+ <Fixture>
+  <Manufacturer>Generic</Manufacturer>
+  <Model>Generic</Model>
+  <Mode>4 Channel</Mode>
+  <ID>9</ID>
+  <Name>Dimmer zadne podium</Name>
+  <Universe>0</Universe>
+  <Address>8</Address>
+  <Channels>4</Channels>
+ </Fixture>
+ <Fixture>
+  <Manufacturer>SePar </Manufacturer>
+  <Model>QUAD led RGBW IR</Model>
+  <Mode>8 channel mode</Mode>
+  <ID>10</ID>
+  <Name>QUAD led RGBW IR #1</Name>
+  <Universe>0</Universe>
+  <Address>95</Address>
+  <Channels>8</Channels>
+ </Fixture>
+ <Fixture>
+  <Manufacturer>SePar </Manufacturer>
+  <Model>QUAD led RGBW IR</Model>
+  <Mode>8 channel mode</Mode>
+  <ID>11</ID>
+  <Name>QUAD led RGBW IR #2</Name>
+  <Universe>0</Universe>
+  <Address>104</Address>
+  <Channels>8</Channels>
+ </Fixture>
+ <Fixture>
+  <Manufacturer>Generic</Manufacturer>
+  <Model>Generic</Model>
+  <Mode>1 Channel</Mode>
+  <ID>12</ID>
+  <Name>Dymostroj</Name>
+  <Universe>0</Universe>
+  <Address>12</Address>
+  <Channels>1</Channels>
+ </Fixture>
+ <Fixture>
+  <Manufacturer>Generic</Manufacturer>
+  <Model>Generic</Model>
+  <Mode>1 Channel</Mode>
+  <ID>13</ID>
+  <Name>Dimmer ziarovky kapela</Name>
+  <Universe>0</Universe>
+  <Address>24</Address>
+  <Channels>1</Channels>
+ </Fixture>
+ <Fixture>
+  <Manufacturer>Exalite</Manufacturer>
+  <Model>rgbwa</Model>
+  <Mode>9 channel</Mode>
+  <ID>15</ID>
+  <Name>Exalite rgbw rampa</Name>
+  <Universe>0</Universe>
+  <Address>113</Address>
+  <Channels>9</Channels>
+ </Fixture>
+ <Fixture>
+  <Manufacturer>Exalite</Manufacturer>
+  <Model>rgbwa</Model>
+  <Mode>9 channel</Mode>
+  <ID>16</ID>
+  <Name>Exalite rgb popdium</Name>
+  <Universe>0</Universe>
+  <Address>123</Address>
+  <Channels>9</Channels>
+ </Fixture>
+ <FixtureGroup ID="0">
+  <Name>RGB rows</Name>
+  <Size X="4" Y="1"/>
+  <Head X="0" Y="0" Fixture="2">0</Head>
+  <Head X="1" Y="0" Fixture="3">0</Head>
+  <Head X="2" Y="0" Fixture="4">0</Head>
+  <Head X="3" Y="0" Fixture="5">0</Head>
+ </FixtureGroup>
+ <FixtureGroup ID="1">
+  <Name>RGB collums</Name>
+  <Size X="1" Y="4"/>
+  <Head X="0" Y="0" Fixture="2">0</Head>
+  <Head X="0" Y="1" Fixture="4">0</Head>
+  <Head X="0" Y="2" Fixture="5">0</Head>
+  <Head X="0" Y="3" Fixture="3">0</Head>
+ </FixtureGroup>
+ <FixtureGroup ID="2">
+  <Name>RGB grid</Name>
+  <Size X="2" Y="2"/>
+  <Head X="0" Y="0" Fixture="2">0</Head>
+  <Head X="1" Y="0" Fixture="4">0</Head>
+  <Head X="0" Y="1" Fixture="3">0</Head>
+  <Head X="1" Y="1" Fixture="5">0</Head>
+ </FixtureGroup>
+</FixtureList>
