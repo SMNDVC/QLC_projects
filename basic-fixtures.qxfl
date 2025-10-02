@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureList>
+<FixtureList xmlns="http://www.qlcplus.org/FixtureList">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.13.1</Version>
+  <Author>Simon Dovicovic</Author>
+ </Creator>
+ <Fixture>
+  <Manufacturer>Generic</Manufacturer>
+  <Model>Generic</Model>
+  <Mode>4 Channel</Mode>
+  <ID>0</ID>
+  <Name>Dimmer #1</Name>
+  <Universe>0</Universe>
+  <Address>0</Address>
+  <Channels>4</Channels>
+ </Fixture>
+ <Fixture>
+  <Manufacturer>Generic</Manufacturer>
+  <Model>Generic</Model>
+  <Mode>4 Channel</Mode>
+  <ID>1</ID>
+  <Name>Dimmer #2</Name>
+  <Universe>0</Universe>
+  <Address>4</Address>
+  <Channels>4</Channels>
+ </Fixture>
+ <Fixture>
+  <Manufacturer>Generic</Manufacturer>
+  <Model>Generic</Model>
+  <Mode>4 Channel</Mode>
+  <ID>2</ID>
+  <Name>Dimmer #3</Name>
+  <Universe>0</Universe>
+  <Address>8</Address>
+  <Channels>4</Channels>
+ </Fixture>
+ <Fixture>
+  <Manufacturer>Showtec</Manufacturer>
+  <Model>Club Par 12-4 RGBW</Model>
+  <Mode>9 Channel</Mode>
+  <ID>3</ID>
+  <Name>Club Par 12-4 RGBW #1</Name>
+  <Universe>0</Universe>
+  <Address>29</Address>
+  <Channels>9</Channels>
+ </Fixture>
+ <Fixture>
+  <Manufacturer>Showtec</Manufacturer>
+  <Model>Club Par 12-4 RGBW</Model>
+  <Mode>9 Channel</Mode>
+  <ID>4</ID>
+  <Name>Club Par 12-4 RGBW #2</Name>
+  <Universe>0</Universe>
+  <Address>39</Address>
+  <Channels>9</Channels>
+ </Fixture>
+ <Fixture>
+  <Manufacturer>Showtec</Manufacturer>
+  <Model>Club Par 12-6 RGBWAUV</Model>
+  <Mode>11 Channel</Mode>
+  <ID>5</ID>
+  <Name>Club Par 12-6 RGBWAUV #1</Name>
+  <Universe>0</Universe>
+  <Address>49</Address>
+  <Channels>11</Channels>
+ </Fixture>
+ <Fixture>
+  <Manufacturer>Showtec</Manufacturer>
+  <Model>Club Par 12-6 RGBWAUV</Model>
+  <Mode>11 Channel</Mode>
+  <ID>6</ID>
+  <Name>Club Par 12-6 RGBWAUV #2</Name>
+  <Universe>0</Universe>
+  <Address>61</Address>
+  <Channels>11</Channels>
+ </Fixture>
+ <FixtureGroup ID="0">
+  <Name>Club par row</Name>
+  <Size X="4" Y="1"/>
+  <Head X="0" Y="0" Fixture="3">0</Head>
+  <Head X="1" Y="0" Fixture="4">0</Head>
+  <Head X="2" Y="0" Fixture="5">0</Head>
+  <Head X="3" Y="0" Fixture="6">0</Head>
+ </FixtureGroup>
+ <FixtureGroup ID="1">
+  <Name>Club par column</Name>
+  <Size X="1" Y="4"/>
+  <Head X="0" Y="0" Fixture="3">0</Head>
+  <Head X="0" Y="1" Fixture="5">0</Head>
+  <Head X="0" Y="2" Fixture="4">0</Head>
+  <Head X="0" Y="3" Fixture="6">0</Head>
+ </FixtureGroup>
+</FixtureList>
